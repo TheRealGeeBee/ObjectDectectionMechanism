@@ -34,7 +34,7 @@ lcd.clear();
 lcd.print("LOADING..");
 delay(1000);
 lcd.clear();
-lcd.print("OBJECT DETECTION");
+lcd.print("OBSTACLE DETECT");
 lcd.setCursor(0, 1);
 lcd.print("Gabriel Nnamoko");
 delay(2000);
@@ -68,7 +68,7 @@ void loop() {
     }
    else if (distance >= 45 && distance <= 80)
    {
-    lcd.print("Object Detected!");
+    lcd.print("Obstacle seen!");
     lcd.setCursor(0, 1);
     lcd.print("Distance:");
     lcd.print(distance);
